@@ -4,5 +4,15 @@ header{
 }
 header h1{
     color: whitesmoke;
+    margin-left: 100px;
     
+}
+main div.loro{
+    display: flex;
+    justify-content: center;
+}
+main div.loro img{
+    width: 2000px;
+    height: 700px;
+
 }
