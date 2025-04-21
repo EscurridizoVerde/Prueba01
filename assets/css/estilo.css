@@ -5,14 +5,48 @@ header{
 header h1{
     color: whitesmoke;
     margin-left: 100px;
+    padding: 100px;
     
 }
 
 main div.form{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     background-color: aquamarine;
-    position: absolute;
 
+}
+
+main div.texto{
+    text-align: center;
+}
+
+main div.imagenes{
+    text-align: center;
+}
+main div.imagenes img{
+    width: 100px;
+    margin: 0 10px;
+}
+main div.boton{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+main div.boton button{
+    font-size: x-large;
+    color: aliceblue;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin-top: 50px;
+    background-color: aquamarine;
 }
